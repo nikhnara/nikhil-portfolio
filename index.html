@@ -1,237 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nikhil Bharadwaj Narayanam | Data Scientist / Analyst</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil • Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <style>
+        /* Additional custom styles can be added here if needed */
+    </style>
 </head>
-<body class="bg-white text-gray-900">
-  <header class="fixed top-0 w-full bg-white shadow z-50">
-    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-      <div class="font-bold text-lg">Nikhil</div>
-      <nav class="space-x-4">
-        <a href="#about" class="hover:text-blue-500">About &amp; Traits</a>
-        <a href="#expertise" class="hover:text-blue-500">Expertise</a>
-        <a href="#tech" class="hover:text-blue-500">Tech Stack</a>
-        <a href="#projects" class="hover:text-blue-500">Projects</a>
-        <a href="#journey" class="hover:text-blue-500">Journey</a>
-        <a href="#certifications" class="hover:text-blue-500">Certifications</a>
-        <a href="#dashboard" class="hover:text-blue-500">Dashboard</a>
-        <a href="#contact" class="hover:text-blue-500">Contact</a>
-      </nav>
-    </div>
-  </header>
-  <main class="pt-24">
+<body class="font-sans text-gray-900 bg-white">
+    <!-- Header -->
+    <header class="sticky top-0 z-50 backdrop-blur bg-white/90 border-b border-gray-200 shadow-sm">
+        <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
+            <a href="#top" class="font-semibold text-lg">Nikhil • Portfolio</a>
+            <ul class="hidden md:flex items-center gap-6 text-sm">
+                <li><a href="#about" class="text-gray-700 hover:text-gray-900">About &amp; Traits</a></li>
+                <li><a href="#strengths" class="text-gray-700 hover:text-gray-900">My Expertise</a></li>
+                <li><a href="#tech" class="text-gray-700 hover:text-gray-900">Tech Stack</a></li>
+                <li><a href="#projects" class="text-gray-700 hover:text-gray-900">Projects</a></li>
+                <li><a href="#journey" class="text-gray-700 hover:text-gray-900">Journey</a></li>
+                <li><a href="#certifications" class="text-gray-700 hover:text-gray-900">Certifications</a></li>
+                <li><a href="#dashboards" class="text-gray-700 hover:text-gray-900">My Data Dashboard</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <!-- Hero -->
-    <section id="hero" class="py-20 bg-gradient-to-r from-pink-100 via-red-100 to-amber-100">
-      <div class="max-w-3xl mx-auto text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Nikhil Bharadwaj Narayanam</h1>
-        <h2 class="text-xl md:text-2xl font-semibold mb-4">Data Analyst/Scientist</h2>
-        <p class="text-lg md:text-xl">Turning messy data into business clarity — and exploring the edge with neural nets, ML, and analytical storytelling.</p>
-      </div>
+    <section id="top" class="bg-gradient-to-br from-blue-50 via-cyan-50 to-white py-24 border-b border-gray-200">
+        <div class="max-w-4xl mx-auto px-6" data-aos="zoom-in">
+            <div class="relative">
+                <div class="absolute -inset-0.5 bg-gradient-to-r from-sky-400 via-blue-300 to-cyan-300 rounded-3xl blur opacity-50 animate-pulse" aria-hidden="true"></div>
+                <div class="relative bg-white/95 backdrop-blur rounded-3xl shadow-2xl p-8 md:p-10 border border-white/60 ring-1 ring-blue-300/50">
+                    <div class="flex flex-col items-center md:flex-row md:items-center md:gap-6">
+                        <img src="IMG_2781.jpg" alt="Nikhil Bharadwaj Narayanam" class="w-32 h-32 rounded-full object-cover shadow-lg border-4 border-white"/>
+                        <h1 class="text-4xl md:text-5xl font-bold">Hi, I'm Nikhil Bharadwaj Narayanam</h1>
+                    </div>
+                    <p class="mt-2 text-lg text-gray-700">Data Analyst/Scientist - ML, Neural Nets, and Analytical Storytelling</p>
+                    <p class="mt-4 text-gray-800">Turning messy data into business clarity - while exploring the edge with ML and neural networks to drive measurable business impact.</p>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- About & Traits -->
-    <section id="about" class="py-16 bg-white">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">About &amp; Traits</h3>
-        <p class="mb-6">I'm a data enthusiast who began his journey as a Data Engineer, pursued a master's in Applied Data Science at Indiana University with a focus on deep learning, and sharpened my skills as a graduate research assistant. I thrive at the intersection of analytics, ML, and product thinking—helping teams turn raw data into insights and build scalable data practices.</p>
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Problem Solver &amp; Thought Process</h4>
-            <p>I don't just solve problems; I optimize systems and processes to deliver sustainable and efficient solutions.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Domain Expertise</h4>
-            <p>FinTech, marketing analytics, government data, and product analytics—bridging technical and business contexts.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Data Enthusiast</h4>
-            <p>Constantly learning and experimenting—from Kaggle competitions to Stratascratch and LeetCode challenges.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Innovator</h4>
-            <p>Always pushing the envelope with new ML techniques, RAG architectures, and generative AI tools.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Collaborative Leader</h4>
-            <p>Building data cultures from the ground up—partnering with finance, marketing, and operations teams.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Results Driven</h4>
-            <p>Focused on measurable impact: growth, efficiency, and innovation to drive business forward.</p>
-          </div>
+    <section id="about" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">About &amp; Traits</h2>
+        <div class="max-w-7xl mx-auto">
+            <p class="text-gray-700 text-lg leading-relaxed mb-8">
+                I lead data strategy and craft Power BI models for 50+ sites at Louisville Metro Parks &amp; Recreation. My journey includes Wipro and Konnex AI. I build in public with RAG, LLMs, and identity resolution, with a focus on fintech and marketing analytics.
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>📊</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Data Enthusiast</h3>
+                    <p class="text-gray-600 text-sm">Curious and driven to explore data, always seeking patterns and insights that matter.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🧠</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Problem Solver &amp; Thought Process</h3>
+                    <p class="text-gray-600 text-sm">Structured thinking and creative solutions at scale - with an eye on optimizing systems for efficiency and scalability.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🗣️</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Stakeholder Translator</h3>
+                    <p class="text-gray-600 text-sm">Skilled at gathering requirements from leadership and presenting insights in an easy-to-understand way.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>💡</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Innovator</h3>
+                    <p class="text-gray-600 text-sm">Experiment with new tools, ML models, and methods to stay at the cutting edge of analytics.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🎯</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Results-Driven</h3>
+                    <p class="text-gray-600 text-sm">Prioritize measurable impact, iterate quickly, and deliver with ownership.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>📚</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Domain Expertise</h3>
+                    <p class="text-gray-600 text-sm">Blend of fintech, marketing, and government analytics with strong foundations in BI and data engineering.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
-    <!-- Expertise -->
-    <section id="expertise" class="py-16 bg-gray-50">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">My Expertise</h3>
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Data Engineering &amp; Pipelines</h4>
-            <p>Ingest, transform, and orchestrate data using robust ETL pipelines and medallion architectures.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">BI &amp; Analytics</h4>
-            <p>SQL, Python, Power BI, Tableau—transforming raw data into actionable dashboards and stories.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Machine Learning</h4>
-            <p>Time series, regression, classification, clustering, and recommendation systems for predictive insights.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Experimentation &amp; Statistics</h4>
-            <p>A/B testing, hypothesis testing, and causal inference to drive data-driven decision making.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">RAG &amp; Gen AI</h4>
-            <p>Building retrieval augmented generation systems and exploring LLMs to create smarter applications.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Product Analytics &amp; Strategy</h4>
-            <p>Aligning data products with business goals, from problem discovery to solution deployment.</p>
-          </div>
+    <!-- Gradient separator -->
+    <div class="h-1 bg-gradient-to-r from-blue-200 via-cyan-200 to-blue-200 my-8 max-w-6xl mx-auto rounded-full"></div>
+    <!-- My Expertise -->
+    <section id="strengths" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">My Expertise</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🧹</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Data Cleaning &amp; Preparation</h3>
+                    <p class="text-gray-600 text-sm">Statistical imputation, reliable collection, and transforming raw data into structured, trustworthy datasets.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>📈</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Business Intelligence &amp; Reporting</h3>
+                    <p class="text-gray-600 text-sm">KPI dashboards, report automation, and models that deliver fast, actionable insights.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🤖</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Machine Learning Techniques</h3>
+                    <p class="text-gray-600 text-sm">Feed-forward nets (Lasso, gradient descent), regression, logistic regression, SVM, Random Forests.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🔎</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">RAG &amp; LLMs</h3>
+                    <p class="text-gray-600 text-sm">Building retrieval-augmented generation pipelines and evaluating large language model outputs.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>🛠️</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Data Pipelines</h3>
+                    <p class="text-gray-600 text-sm">Resilient ETL/ELT in Azure, Snowflake, and AWS with monitoring and SLAs.</p>
+                </div>
+                <div class="p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-center">
+                    <div class="text-3xl mb-3" aria-hidden>📉</div>
+                    <h3 class="font-bold text-lg mb-2 text-blue-700">Statistical Methods</h3>
+                    <p class="text-gray-600 text-sm">ARIMA/SARIMA, time series, feature engineering, and seasonality detection.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Tech Stack -->
-    <section id="tech" class="py-16 bg-white">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">Tech Stack</h3>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div>
-            <h4 class="font-semibold mb-2">Analytics &amp; BI Tools</h4>
-            <p>SQL, Python, Power BI, Tableau, Excel, PySpark</p>
-            <h4 class="font-semibold mb-2 mt-4">Fraud &amp; Risk</h4>
-            <p>Anomaly Detection, AML Patterns, Transaction Monitoring, KYC Verification</p>
-            <h4 class="font-semibold mb-2 mt-4">Cloud &amp; Big Data Platforms</h4>
-            <p>Azure (Data Factory, SQL DB), Snowflake, AWS (Lambda, S3, Redshift)</p>
-          </div>
-          <div>
-            <h4 class="font-semibold mb-2">ML Techniques</h4>
-            <p>ARIMA, A/B Testing, Chi-Square, Linear Regression, Clustering, Classification, Recommendation</p>
-            <h4 class="font-semibold mb-2 mt-4">Modeling &amp; Transformation</h4>
-            <p>dbt, 3NFs, Star &amp; Snowflake schemas, SCD-2 dimensions, Bronze-Silver-Gold medallion</p>
-            <h4 class="font-semibold mb-2 mt-4">Ad Tech &amp; Campaign Measurement</h4>
-            <p>Google Ads (Search, Display), Facebook Ads Manager, Tag Management</p>
-          </div>
+    <section id="tech" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">Tech Stack</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-6 text-center">
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🗄️</div><h3 class="font-semibold text-sm">SQL</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🐍</div><h3 class="font-semibold text-sm">Python</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📊</div><h3 class="font-semibold text-sm">Power BI</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📈</div><h3 class="font-semibold text-sm">Tableau</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📗</div><h3 class="font-semibold text-sm">Excel</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>⚡</div><h3 class="font-semibold text-sm">PySpark</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>☁️</div><h3 class="font-semibold text-sm">Azure (ADF, SQL DB)</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>❄️</div><h3 class="font-semibold text-sm">Snowflake</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🟧</div><h3 class="font-semibold text-sm">AWS (Lambda, S3, Redshift)</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🧱</div><h3 class="font-semibold text-sm">dbt</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📚</div><h3 class="font-semibold text-sm">3NF</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>✨</div><h3 class="font-semibold text-sm">Star &amp; Snowflake</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🧬</div><h3 class="font-semibold text-sm">SCD-2</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🥇</div><h3 class="font-semibold text-sm">Bronze-Silver-Gold</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📈</div><h3 class="font-semibold text-sm">ARIMA</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🧪</div><h3 class="font-semibold text-sm">A/B Testing</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>♾️</div><h3 class="font-semibold text-sm">Chi-Square</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📉</div><h3 class="font-semibold text-sm">Linear Regression</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🧩</div><h3 class="font-semibold text-sm">Clustering</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🏷️</div><h3 class="font-semibold text-sm">Classification</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🎯</div><h3 class="font-semibold text-sm">Recommendation</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🚨</div><h3 class="font-semibold text-sm">Anomaly Detection</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>💸</div><h3 class="font-semibold text-sm">AML Patterns</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>👀</div><h3 class="font-semibold text-sm">Transaction Monitoring</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🪪</div><h3 class="font-semibold text-sm">KYC Verification</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🔍</div><h3 class="font-semibold text-sm">Google Ads</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>📣</div><h3 class="font-semibold text-sm">Facebook Ads</h3></div>
+                <div class="p-4 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-xl shadow-md"><div class="text-3xl mb-2" aria-hidden>🏷️</div><h3 class="font-semibold text-sm">Tag Management</h3></div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Projects -->
-    <section id="projects" class="py-16 bg-gray-50">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">Projects</h3>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Competitor Site Selection for Target</h4>
-            <p>Benchmarking Walmart &amp; Costco footprints to recommend high-opportunity locations using demographics, income, daytime population, and demand scores.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Azure Synapse Lakehouse</h4>
-            <p>Architected a scalable lakehouse on Azure Synapse Analytics, integrating structured and unstructured data for enterprise analytics.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Resume–JD RAG App</h4>
-            <p>An LLM-powered application using Retrieval Augmented Generation to match resumes with job descriptions for better candidate fit.</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg">
-            <h4 class="font-semibold mb-2">Identity Resolution System</h4>
-            <p>Designed a deterministic and probabilistic matching system to unify identities across disparate data sources.</p>
-          </div>
+    <section id="projects" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">Projects</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Competitor Site Selection for Target -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🏬</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">Competitor Site Selection for Target (Walmart &amp; Costco)</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Location strategy to out-position competitors by scoring zones on demographics, income, daytime population, and category demand.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Power BI</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">SQL</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Geoanalysis</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Data Modeling</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>&gt;25K population &amp; &gt;$65K income filters to rank hotspots</li>
+                            <li>Brownsburg &amp; Crown Point surfaced as top sites</li>
+                            <li>Validated demand via interactive visuals</li>
+                        </ul>
+                        <div class="pt-1 flex flex-wrap gap-3">
+                            <a href="https://github.com/nikhnara/Strategic-Location-Analysis-for-Target" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50">
+                                <span>GitHub</span>
+                                <span aria-hidden>↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+                <!-- GANs for Text-to-Image -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🖼️</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">GANs for Text-to-Image (TextToPicBOT)</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Built and tuned GANs for text-to-image generation; focused on training stability and quality.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Python</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">GANs</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">TensorFlow</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Deep Learning</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>Implemented text-to-image pipeline</li>
+                            <li>Loss scheduling and gradient clipping for stability</li>
+                            <li>Hyper-parameter sweeps improved fidelity</li>
+                        </ul>
+                        <div class="pt-1 flex flex-wrap gap-3">
+                            <a href="https://github.com/nikhnara/TextToPicBOT" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50">
+                                <span>GitHub</span>
+                                <span aria-hidden>↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+                <!-- Netflix Mood-based Movie Recommendation -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🎬</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">Netflix Mood-based Movie Recommendation</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Recommender that blends user mood and emotions with collaborative filtering; scaled using cloud compute.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Python</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Collaborative Filtering</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Cloud Computing</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>Mapped mood inputs to embeddings</li>
+                            <li>Hybrid CF for accuracy</li>
+                            <li>Explored cloud deployment patterns</li>
+                        </ul>
+                        <div class="pt-1 flex flex-wrap gap-3">
+                            <a href="https://github.com/nikhnara/Netflix-Movie-Recommendation" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50">
+                                <span>GitHub</span>
+                                <span aria-hidden>↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+                <!-- FRST Challenge -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🚒</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">FRST Challenge</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Contributed to the $5M First Responder Smart Tracking (FRST) Challenge; built Lambda pipelines and dashboards for transparency and fairness. Featured in Hoosier Responder (July 2024).</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">AWS Lambda</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">S3</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Python</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Tableau</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>Improved fairness of scoring by 15%</li>
+                            <li>Automated IoT ingestion pipeline</li>
+                            <li>Delivered real-time visual dashboards</li>
+                        </ul>
+                        <div class="pt-1 flex flex-wrap gap-3">
+                            <a href="https://www.in.gov/dhs/files/hoosier-responder-july-2024.pdf" target="_blank" rel="noreferrer" class="inline-flex items-center gap-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50">
+                                <span>Publication</span>
+                                <span aria-hidden>↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+                <!-- RAG-powered Resume Assistant -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🤖</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">RAG-Powered Resume Assistant (Ongoing)</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Personal ATS assistant using RAG with a focus on minimizing token/embedding costs while maintaining relevance and quality. Target release: Nov 30, 2025.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">RAG</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Embeddings</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">LangChain</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Cost Optimization</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>Low-token retrieval strategy</li>
+                            <li>Chunking and re-ranking experiments</li>
+                            <li>Cost vs quality evaluation</li>
+                        </ul>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+                <!-- Identity Resolution Engine -->
+                <div class="group relative overflow-hidden rounded-2xl bg-white/90 shadow-xl ring-1 ring-blue-100 hover:ring-blue-300 transition-all">
+                    <div class="h-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400"></div>
+                    <div class="p-6 flex flex-col gap-4">
+                        <div class="flex items-start gap-3">
+                            <div class="text-3xl" aria-hidden>🧩</div>
+                            <div>
+                                <h3 class="text-xl font-semibold text-gray-900">Identity Resolution Engine (Ongoing)</h3>
+                                <p class="mt-1 text-gray-700 text-sm">Fuzzy matching, graph features, and survivorship rules to unify customer records across sources.</p>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Python</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Record Linkage</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Clustering</span>
+                            <span class="px-2.5 py-1 text-xs rounded-full bg-blue-50 text-blue-700 border border-blue-200">Graph Features</span>
+                        </div>
+                        <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
+                            <li>Improving match precision/recall</li>
+                            <li>Framework for survivorship rules</li>
+                            <li>Exploring multi-source linkage patterns</li>
+                        </ul>
+                    </div>
+                    <div class="pointer-events-none absolute -inset-px opacity-0 group-hover:opacity-100 transition-opacity">
+                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-br from-blue-100/30 to-cyan-100/30"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Journey -->
-    <section id="journey" class="py-16 bg-white">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">My Journey</h3>
-        <div class="space-y-8">
-          <div>
-            <h4 class="text-xl font-semibold">Data Engineering Foundations</h4>
-            <p>Built resilient pipelines and reliable models to turn raw data into insights.</p>
-          </div>
-          <div>
-            <h4 class="text-xl font-semibold">Indiana University – MS in Applied Data Science</h4>
-            <p>Focused on deep learning and neural networks while serving as a graduate research assistant.</p>
-          </div>
-          <div>
-            <h4 class="text-xl font-semibold">Konnex AI – Data Analyst</h4>
-            <p>Leveraged ML and statistical concepts to deliver client value for SeaPro. As part of the founding team, I gained exposure to client management, product analytics, and pitching projects.</p>
-          </div>
-          <div>
-            <h4 class="text-xl font-semibold">Louisville Metro – Senior Data Analyst</h4>
-            <p>Leading data strategy for parks &amp; recreation—partnering with finance and marketing teams to build a robust data culture and exploring AI solutions like chatbots.</p>
-          </div>
-          <div>
-            <h4 class="text-xl font-semibold">Personal Interests</h4>
-            <p>Passionate about NLP, RAG frameworks, and experimenting with OpenAI and Gemini for cost-effective AI solutions.</p>
-          </div>
+    <section id="journey" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">Journey</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="space-y-8 text-gray-700">
+                <p class="text-lg">A story about learning by building: from early data engineering roots to applied data science, startup execution, and now leading data strategy for a city department.</p>
+                <ol class="relative border-l border-blue-200 pl-6 space-y-8">
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">Data Engineering Foundations</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">I started on the engineering side of data: modeling sources, building pipelines, and learning why reliability and documentation matter as much as models.</p>
+                    </li>
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">M.S. in Applied Data Science, Indiana University</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">Deepened my focus on machine learning with a concentration in deep learning and neural networks. Coursework and projects pushed me to think in systems: data quality in, useful predictions out.</p>
+                    </li>
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">Graduate Research Assistant (Data Analyst)</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">Put theory into practice: exploratory analysis, forecasting, and dashboarding to support academic programs. Learned to translate ambiguous questions into measurable metrics and clear visuals.</p>
+                    </li>
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">Data Analyst, Konnex AI (Bloomington Startup)</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">Joined as an early team member and worked directly with client SeaPro. Leveraged ML and statistical methods to improve business decisions. Beyond hands-on analytics, I shaped product analytics, pitched ideas to new clients, and owned delivery end to end.</p>
+                    </li>
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">Senior Data Analyst, Louisville Metro Parks &amp; Recreation</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">Moved into a senior role to lead data strategy across the department. Partner with finance and marketing to build a durable data culture: standard models, shared metrics, and decision-ready dashboards for 50+ sites. Recently began guiding the team into AI use cases, starting with practical chatbots.</p>
+                    </li>
+                    <li>
+                        <div class="absolute -left-2.5 w-5 h-5 rounded-full bg-gradient-to-br from-blue-500 to-cyan-500 ring-4 ring-white" aria-hidden="true"></div>
+                        <h3 class="text-xl font-semibold text-gray-900">Personal Interests and Exploration</h3>
+                        <p class="mt-2 text-sm leading-6 text-gray-700">I keep a builder's habit: NLP experiments, RAG pipelines, and comparing OpenAI and Gemini features to find cost-effective, reliable patterns. I evaluate not just model quality but also operational cost and maintainability.</p>
+                    </li>
+                </ol>
+                <div class="mt-2 p-4 rounded-xl border border-blue-200 bg-blue-50/50">
+                    <p class="text-sm text-gray-800">Through each step, the common thread is ownership: ship value, explain simply, and leave teams stronger than I found them.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Certifications -->
-    <section id="certifications" class="py-16 bg-gray-50">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">Certifications</h3>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg flex flex-col">
-            <div class="flex items-center mb-2">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="w-12 h-12 mr-3">
-              <h4 class="font-semibold">Microsoft Power BI Data Analyst (PL‑300)</h4>
+    <section id="certifications" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">Certifications</h2>
+        <div class="max-w-7xl mx-auto">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-6">
+                <div class="p-4 bg-white rounded-xl shadow border border-gray-200 text-center">
+                    <div class="flex items-center justify-center gap-2 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" class="w-12 h-12 object-contain"/>
+                        <h3 class="font-semibold text-blue-700">Microsoft Power BI Data Analyst (PL-300)</h3>
+                    </div>
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/NikhilBharadwajNarayanam-4994/616DC5B4A4313ED1?sharingId=5C0F59A348DC883B" target="_blank" rel="noreferrer" class="inline-block mt-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50 transition">View Certificate</a>
+                </div>
+                <div class="p-4 bg-white rounded-xl shadow border border-gray-200 text-center">
+                    <div class="flex items-center justify-center gap-2 mb-3">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="Meta Logo" class="w-12 h-12 object-contain"/>
+                        <h3 class="font-semibold text-blue-700">Meta Marketing Analytics Professional Certificate</h3>
+                    </div>
+                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/NZ8QHHZYYJR1" target="_blank" rel="noreferrer" class="inline-block mt-2 px-3 py-1.5 text-sm rounded-lg border border-blue-200 text-blue-700 hover:bg-blue-50 transition">View Certificate</a>
+                </div>
             </div>
-            <a href="https://learn.microsoft.com/api/credentials/share/en-us/NikhilBharadwajNarayanam-4994/616DC5B4A4313ED1?sharingId=5C0F59A348DC883B" target="_blank" class="mt-auto text-blue-600 hover:underline">View Certificate</a>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg flex flex-col">
-            <div class="flex items-center mb-2">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="Meta" class="w-12 h-12 mr-3">
-              <h4 class="font-semibold">Meta Marketing Analytics Professional Certificate</h4>
-            </div>
-            <a href="https://www.coursera.org/account/accomplishments/professional-cert/NZ8QHHZYYJR1" target="_blank" class="mt-auto text-blue-600 hover:underline">View Certificate</a>
-          </div>
         </div>
-      </div>
     </section>
-    <!-- Dashboard -->
-    <section id="dashboard" class="py-16 bg-white">
-      <div class="max-w-5xl mx-auto px-4">
-        <h3 class="text-3xl font-bold mb-4">My Data Dashboard</h3>
-        <p class="mb-6">I’m currently building dashboards using public datasets to showcase retail trends, churn forecasting, and RAG exploration. Stay tuned!</p>
-        <div class="grid md:grid-cols-3 gap-6">
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg text-center">
-            <h4 class="font-semibold mb-2">Retail Sales Trends</h4>
-            <p>Coming soon</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg text-center">
-            <h4 class="font-semibold mb-2">Churn Forecasting</h4>
-            <p>Coming soon</p>
-          </div>
-          <div class="p-4 border rounded-lg shadow hover:shadow-lg text-center">
-            <h4 class="font-semibold mb-2">RAG Explorer</h4>
-            <p>Coming soon</p>
-          </div>
+    <!-- My Data Dashboard -->
+    <section id="dashboards" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">My Data Dashboard</h2>
+        <div class="max-w-7xl mx-auto space-y-6 text-center">
+            <p class="text-gray-700 text-lg">🚧 Work in progress — I’m currently building personal dashboards to showcase storytelling with public/synthetic datasets.</p>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-xl border border-dashed border-blue-300 bg-blue-50/30">
+                    <h3 class="font-semibold text-blue-700">Retail Sales Trends</h3>
+                    <p class="text-sm text-gray-600">Coming soon: Sales insights from Kaggle/public datasets visualized in Power BI.</p>
+                </div>
+                <div class="p-6 rounded-xl border border-dashed border-blue-300 bg-blue-50/30">
+                    <h3 class="font-semibold text-blue-700">Churn Forecasting</h3>
+                    <p class="text-sm text-gray-600">Coming soon: Predictive churn model dashboard with filters and drilldowns.</p>
+                </div>
+                <div class="p-6 rounded-xl border border-dashed border-blue-300 bg-blue-50/30">
+                    <h3 class="font-semibold text-blue-700">RAG Explorer</h3>
+                    <p class="text-sm text-gray-600">Coming soon: Interactive demo of my RAG-powered assistant with synthetic data.</p>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
     <!-- Contact -->
-    <section id="contact" class="py-16 bg-gray-50">
-      <div class="max-w-5xl mx-auto px-4 text-center">
-        <h3 class="text-3xl font-bold mb-4">Contact</h3>
-        <p class="mb-4">Let’s connect and build something great together!</p>
-        <div class="space-x-4">
-          <a href="https://www.linkedin.com/in/nikhil-bharadwaj888/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a>
-          <a href="https://github.com/nikhnara" target="_blank" class="text-blue-600 hover:underline">GitHub</a>
+    <section id="contact" class="py-16 px-6 bg-white border-t border-gray-200" data-aos="fade-up">
+        <h2 class="text-3xl font-semibold text-center mb-10 text-blue-700">Get in Touch</h2>
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="mb-4">Email: narayanamnikhil1608@gmail.com</p>
+            <p>Links: <a class="text-blue-600 underline" href="https://www.linkedin.com/in/nikhil-bharadwaj888/" target="_blank" rel="noreferrer">LinkedIn</a> | <a class="text-blue-600 underline" href="https://github.com/nikhnara" target="_blank" rel="noreferrer">GitHub</a></p>
         </div>
-      </div>
     </section>
-  </main>
-  <footer class="py-4 text-center text-sm text-gray-500">
-    &copy; <span id="year"></span> Nikhil Bharadwaj Narayanam. All rights reserved.
-  </footer>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <!-- Footer -->
+    <footer class="text-center py-6 text-sm text-gray-500 bg-white border-t border-gray-200">
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> Nikhil Bharadwaj Narayanam. All rights reserved.</p>
+    </footer>
+    <!-- AOS scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900,
+        once: true,
+        offset: 80
+      });
+    </script>
+    <!-- Smooth scroll for nav links -->
+    <script>
+      document.querySelectorAll('header nav a').forEach(function(anchor) {
+        anchor.addEventListener('click', function (e) {
+          if (this.getAttribute('href').startsWith('#')) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+    </script>
 </body>
 </html>
